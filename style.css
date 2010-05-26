@@ -19,6 +19,10 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 div.slide {
   background: url(http://www.peritor.com/img/peritor_logo.png) no-repeat;
   background-position: 95% 3%;
@@ -31,4 +35,9 @@ span.current:before, span.current:after {
 
 code {
   line-height: 42px;
+}
+
+img#scalarium_logo {
+  width: 400px;
+  height: 400px;
 }
