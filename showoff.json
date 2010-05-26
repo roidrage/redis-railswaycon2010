@@ -1,10 +1,14 @@
-[
-  {"section": "01_introduction"},
-  {"section": "02_how_we_used_to_do_things"},
-  {"section": "03_what_we_should_do_instead"},
-  {"section": "04_what_is_redis"},
-  {"section": "05_data_structures"},
-  {"section": "06_data_modelling"},
-  {"section": "07_using_redis_with_ruby"},
-  {"section": "08_redis_use_cases"}
-]
+{
+  "name": "Redis and Ruby - Simple meets Awesome",
+  "description": "Slides for my talk at RailsWayCon 2010",
+  "sections": [
+    {"section": "01_introduction"},
+    {"section": "02_how_we_used_to_do_things"},
+    {"section": "03_what_we_should_do_instead"},
+    {"section": "04_what_is_redis"},
+    {"section": "05_data_structures"},
+    {"section": "06_data_modelling"},
+    {"section": "07_using_redis_with_ruby"},
+    {"section": "08_redis_use_cases"}
+  ]
+}
