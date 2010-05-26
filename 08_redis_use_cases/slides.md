@@ -81,8 +81,14 @@
 
       def self.perform(*args)
         args.each do |produce|
-          puts "Consuming produce"
+          puts "Consuming #{produce}"
         end 
       end 
     end
 
+!SLIDE ruby
+
+# Producer #
+
+    @@@ ruby
+    Resque.enqueue(Consumer, 'nutella', 'vegemite')
