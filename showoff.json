@@ -2,5 +2,7 @@
   {"section": "01_introduction"},
   {"section": "02_how_we_used_to_do_things"},
   {"section": "03_what_we_should_do_instead"},
-  {"section": "04_what_is_redis"}
+  {"section": "04_what_is_redis"},
+  {"section": "05_data_structures"},
+  {"section": "06_data_modelling"}
 ]
