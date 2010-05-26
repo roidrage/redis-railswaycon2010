@@ -23,6 +23,22 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-weight: bold
+}
+
+blockquote {
+  font-size: 48px;
+}
+
+p.caption {
+  margin-top: 20px;
+  margin-right: 50px;
+  float: right;
+  font-style: italic;
+  font-size: 20px;
+}
+
 div.slide {
   background: url(http://www.peritor.com/img/peritor_logo.png) no-repeat;
   background-position: 95% 3%;
