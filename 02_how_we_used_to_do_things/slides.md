@@ -17,3 +17,11 @@
 !SLIDE center
 
 <a href="http://www.flickr.com/photos/wwworks/2623295415/"><img src="eggs_basket.jpg"/></a>
+
+!SLIDE
+
+## Throwing in more data is easy ##
+
+!SLIDE
+
+## Getting it out again gets harder and harder ##
