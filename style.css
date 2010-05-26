@@ -41,3 +41,18 @@ img#scalarium_logo {
   width: 400px;
   height: 400px;
 }
+
+#footer {
+  background-color: white;
+}
+
+#slideInfo {
+  float: right;
+  background-color: #791714;
+  height: 20px;
+  color: white;
+  width: 200px;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 7px;
+}
