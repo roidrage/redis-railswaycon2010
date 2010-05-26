@@ -40,6 +40,17 @@
 
 !SLIDE
 
+## All the data is kept in memory. ##
+
+!SLIDE bullets incremental
+
+# But! #
+
+* Redis 2.0 has virtual memory
+* Data can be swapped to disk
+
+!SLIDE
+
 ## Simple, text-based protocol ##
 
 !SLIDE commandline 
@@ -56,4 +67,4 @@
 
 !SLIDE
 
-### Written by Salvatore Sanfilippo, now working for VMware ###
+### Written by [Salvatore Sanfilippo](http://twitter.com/antirez), now working for VMware ###

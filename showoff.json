@@ -4,5 +4,7 @@
   {"section": "03_what_we_should_do_instead"},
   {"section": "04_what_is_redis"},
   {"section": "05_data_structures"},
-  {"section": "06_data_modelling"}
+  {"section": "06_data_modelling"},
+  {"section": "07_using_redis_with_ruby"},
+  {"section": "08_redis_use_cases"}
 ]
