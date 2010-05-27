@@ -24,22 +24,48 @@
 # Examples #
 ## Sharing data across processes ##
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental scalarium
 
-# Scalarium #
+# Security #
 
 * Internal messages get a request token
 * Stored in Redis
 * Removed on successful delivery
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental scalarium
 
-# Scalarium #
+# Security #
 
 * Internal and external messaging is encrypted
 * Certificates are stored in Redis
 * Available for all processes
 
+!SLIDE scalarium incremental bullets
+
+<br/>
+  
+# Tracking Instance Hours #
+
+* Track start time of an instance
+* When stopped, calculate computing hours
+* And add to several sets
+
+!SLIDE scalarium bullets incremental
+
+# Statistics #
+
+* Instances collect monitoring data
+* Stored in a list in Redis
+* Kept at a limit using LTRIM
+
+!SLIDE scalarium center
+
+<br/>
+<br/>
+# Statistics #
+
+![Instance Monitoring in Scalarium](scalarium_monitoring.png)
+  
 !SLIDE ruby
 
 # Sharing data #
