@@ -9,7 +9,7 @@
 
 !SLIDE
 
-## Redis library is close to the metal ##
+## [Redis library](http://github.com/ezmobius/redis) is close to the metal ##
 
 !SLIDE
 

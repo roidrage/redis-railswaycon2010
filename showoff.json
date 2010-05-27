@@ -9,6 +9,7 @@
     {"section": "05_data_structures"},
     {"section": "06_data_modelling"},
     {"section": "07_using_redis_with_ruby"},
-    {"section": "08_redis_use_cases"}
+    {"section": "08_redis_use_cases"},
+    {"section": "09_outro"}
   ]
 }
