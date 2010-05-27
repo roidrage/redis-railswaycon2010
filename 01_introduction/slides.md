@@ -7,8 +7,8 @@
 
 # self #
 
-* Mathias Meyer
-* Chief Visionary at Peritor
+* [Mathias Meyer](http://www.paperplanes.de)
+* Chief Visionary at [Peritor](http://www.peritor.com)
 * Clouds, Ruby, NoSQL
 * [@roidrage](http://twitter.com/roidrage)
 * <http://github.com/mattmatt>
