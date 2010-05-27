@@ -2,6 +2,8 @@
 
 # Data Modelling #
 
+<a href="http://www.flickr.com/photos/define23/2289185755/"><img src="blueprint.jpg" alt="Blueprint"/></a>
+
 !SLIDE
 
 # How do I get my data into Redis? #

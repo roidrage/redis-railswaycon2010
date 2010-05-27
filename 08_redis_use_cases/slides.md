@@ -92,3 +92,10 @@
 
     @@@ ruby
     Resque.enqueue(Consumer, 'nutella', 'vegemite')
+
+!SLIDE
+
+# Web workers #
+
+## Study has shown: ##
+## 90% of all web workers would choose Redis. ##

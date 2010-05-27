@@ -26,9 +26,9 @@
 
 ## More than storing simple keys and values. ##
 
-!SLIDE
+!SLIDE center
 
-# Jolly, it's fast! #
+![Jolly, it's fast!](fast.jpg)
 
 !SLIDE
 
@@ -40,7 +40,11 @@
 
 !SLIDE
 
-## All the data is kept in memory. ##
+![Redis is a hero!](superhero.jpg)
+
+!SLIDE
+
+## All data is kept in memory. ##
 
 !SLIDE bullets incremental
 
@@ -51,7 +55,7 @@
 
 !SLIDE
 
-## Simple, text-based protocol ##
+## Simple, text-based protocol. ##
 
 !SLIDE commandline 
 
