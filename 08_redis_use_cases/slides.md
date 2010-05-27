@@ -29,7 +29,7 @@
 # Security #
 
 * Internal messages get a request token
-* Stored in Redis
+* Stored in Redis before sending
 * Removed on successful delivery
 
 !SLIDE bullets incremental scalarium
@@ -37,7 +37,7 @@
 # Security #
 
 * Internal and external messaging is encrypted
-* Certificates are stored in Redis
+* Certificates and identities stored in Redis
 * Available for all processes
 
 !SLIDE scalarium incremental bullets
