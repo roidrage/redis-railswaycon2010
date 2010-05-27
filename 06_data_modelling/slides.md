@@ -50,6 +50,12 @@
 
 !SLIDE center
 
+# Getting them out again: #
+
+    ZRANGE views:2010-06-02 0 -1 WITHSCORES
+
+!SLIDE center
+
 # The same can be done with hashes. #
 
     HINCRBY views:daily:/home 2010-06-02 1
