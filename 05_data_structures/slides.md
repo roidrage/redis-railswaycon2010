@@ -50,3 +50,28 @@
 # Hashes #
 
 ## HSET, HGET, HKEYS, HVALS ##
+
+!SLIDE
+
+# Beyond Data Structures #
+
+!SLIDE
+
+# Publish/Subscribe #
+
+    SUBSCRIBE swiss.army.gear
+    PSUBSCRIBE swiss.army.*
+
+    PUBLISH swiss.army.gear knife
+
+!SLIDE
+
+# Atomic Transactions #
+
+    MULTI
+
+    SET key value
+    APPEND key moar
+    LPUSH my_keys key
+
+    EXEC
