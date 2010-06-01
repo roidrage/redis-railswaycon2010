@@ -69,3 +69,8 @@ img#scalarium_logo {
   padding-top: 7px;
 }
 
+.full-center {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}

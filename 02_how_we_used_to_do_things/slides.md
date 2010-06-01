@@ -6,7 +6,7 @@
 
 # We dumped everything into MySQL
 
-!SLIDE bullets incremental
+!SLIDE bullets
 
 * Page views
 * Histories

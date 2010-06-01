@@ -9,7 +9,7 @@
 
 !SLIDE
 
-## [Redis library](http://github.com/ezmobius/redis) is close to the metal ##
+## [Redis library](http://github.com/ezmobius/redis-rb) is close to the metal ##
 
 !SLIDE
 
@@ -58,7 +58,8 @@
 ## Working with sorted sets ##
 
     @@@ ruby
-    r.zadd("sorted", 1, "member")
+    r.zadd("sorted", 1, "low")
+    r.zadd("sorted", 2, "high")
 
     r.zrange("sorted", 0, -1,
              :withscores => true)
@@ -73,6 +74,7 @@
     r.hset("hash", "key", "value")
 
     r.hgetall("hash")
+    # => {"key"=>"value"}
 
 !SLIDE
 

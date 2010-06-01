@@ -41,6 +41,31 @@
 * Certificates and identities stored in Redis
 * Available for all processes
 
+!SLIDE ruby
+
+# Sharing data #
+
+    @@@ ruby
+    # Process 1
+    @redis.setnx("a_secret", "message")
+    
+    # Process 2
+    @redis.get("a_secret")
+
+!SLIDE bullets incremental
+
+# Sharing data is useful for... #
+
+* Feature flipping
+* Central and dynamic configuration
+* Additional (and simple) object meta data
+* Sending data from background to web processes (and vice versa)
+
+!SLIDE
+
+# Examples #
+## Statistical Data ##
+
 !SLIDE scalarium incremental bullets
 
 <br/>
@@ -66,25 +91,10 @@
 # Statistics #
 
 ![Instance Monitoring in Scalarium](scalarium_monitoring.png)
-  
-!SLIDE ruby
 
-# Sharing data #
+!SLIDE
 
-    @@@ ruby
-    # Process 1
-    @redis.setnx("a_secret", "message")
-    
-    # Process 2
-    @redis.get("a_secret")
-
-!SLIDE bullets incremental
-
-# Sharing data is useful for... #
-
-* Feature flipping
-* Central and dynamic configuration
-* Additional (and simple) object meta data
+## Statistics can require a lot of reverse lookup structures. ##
 
 !SLIDE
 
@@ -118,7 +128,7 @@
 # Producer #
 
     @@@ ruby
-    Resque.enqueue(Consumer, 'nutella', 'vegemite')
+    Resque.enqueue(Consumer, 'nutella', 'jam')
 
 !SLIDE center
 

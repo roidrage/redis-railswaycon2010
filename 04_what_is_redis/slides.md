@@ -12,11 +12,11 @@
 
 > Redis is the Swiss Army knife of data storage.
 
-<p class="caption">Me, Today</p>
+<p class="caption">Me, June 2010</p>
 
 !SLIDE
 
-## Simpler: Redis is a key-value database ##
+## Simpler: Redis is a key-value database. ##
 
 !SLIDE
 
@@ -34,9 +34,10 @@
 
 ## Trimmed for high read/write performance. ##
 
-!SLIDE
+!SLIDE incremental
 
-## Several 10000 reads/writes per second. ##
+## Several 10000 reads/writes per second ##
+## (and client). ##
 
 !SLIDE
 

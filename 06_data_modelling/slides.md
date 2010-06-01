@@ -22,7 +22,7 @@
 
 !SLIDE
 
-# Data Duplication is acceptable #
+# Data duplication is acceptable #
 ## ...if it improves accessibility. ##
 
 !SLIDE
@@ -52,29 +52,33 @@
 
 !SLIDE center
 
-# Getting them out again: #
+## Getting them out again: ##
 
     ZRANGE views:2010-06-02 0 -1 WITHSCORES
 
 !SLIDE center
 
-# The same can be done with hashes. #
+## The same can be done with hashes. ##
 
     HINCRBY views:daily:/home 2010-06-02 1
 
 !SLIDE center
 
-# Caveat: No sorting possible #
+## Caveat: No sorting possible. ##
 
 !SLIDE center
 
-# Add a total count for a page. #
+## Keep separate counters for additional statistics. ##
+
+!SLIDE center
+
+## Add a total count for a page. ##
 
     INCR views:total:/home
 
 !SLIDE center
 
-# And a monthly count. #
+## And a monthly count. ##
 
     INCR views:by_month:2010-06:/home
 
@@ -103,6 +107,8 @@
         print redis.get("views:by_month:#{month}:#{page}")
       end
     end
+
+<div class="full-center"><small>Warning: Pseude code</small></div>
 
 !SLIDE
 
