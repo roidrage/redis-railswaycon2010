@@ -119,6 +119,10 @@
     @@@ ruby
     Resque.enqueue(Consumer, 'nutella', 'vegemite')
 
+!SLIDE center
+
+![Resque Web Console](resque_web.png)
+
 !SLIDE
 
 # Web workers #
