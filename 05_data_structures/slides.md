@@ -24,6 +24,7 @@
 !SLIDE bullets
 
 * Atomic push and pop
+* Blocking pop
 * Range queries
 
 !SLIDE
