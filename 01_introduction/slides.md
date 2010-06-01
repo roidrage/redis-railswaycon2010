@@ -11,7 +11,7 @@
 * Chief Visionary at [Peritor](http://www.peritor.com)
 * Clouds, Ruby, NoSQL
 * [@roidrage](http://twitter.com/roidrage)
-* <http://github.com/mattmatt>
+* [github.com/mattmatt](http://github.com/mattmatt)
 
 !SLIDE center
 
