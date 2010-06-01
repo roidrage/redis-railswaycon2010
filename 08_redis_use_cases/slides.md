@@ -17,6 +17,7 @@
 * Sharing data across processes
 * Worker queues
 * Statistical data
+* Who's online
 * Webworkers (with Node.js)
 
 !SLIDE
