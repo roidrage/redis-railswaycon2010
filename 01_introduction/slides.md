@@ -3,6 +3,8 @@
 # Ruby and Redis #
 # Simple meets Awesome #
 
+<p class="caption">RailsWayCon 2010</a>
+
 !SLIDE bullets incremental
 
 # self #
