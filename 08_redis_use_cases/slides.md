@@ -18,7 +18,8 @@
 * Worker queues
 * Statistical data
 * Who's online
-* Webworkers (with Node.js)
+* Full text search
+* Web workers (with Node.js)
 
 !SLIDE
 
